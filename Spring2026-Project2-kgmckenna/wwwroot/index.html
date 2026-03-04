@@ -16,12 +16,8 @@
     <!--Query Textbox-->
     <div id="ui">
         <form id="searchForm">
-            <label for="query">Query: </label>
             <input type="text" id="query" name="query">
-            <br><br>
-
-        <!--search button-->
-            <button type="submit" id="searchButton">Search</button>
+            <input type="submit" id="searchButton" value="Search">
         </form>
 
         <!--button that displays current time. (does this mean it displays all the time or only when you press it)-->
@@ -30,7 +26,9 @@
 
     </div>
 
-    <div id="searchResults"></div>
+    <div id="resultsContainer">
+        <div id="searchResults"></div>
+    </div>
     <div id="time"></div>
 
     <!--jQuery-->
@@ -38,7 +36,7 @@
     <!--jQueryUI-->
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.14.1/jquery-ui.min.js" integrity="sha384-SStJQoPipVtHHnIgUfDI+jTAbSyU+HMbhwt2XRRNpLIRFg9VguopT6Y4+cdOlkqg" crossorigin="anonymous"></script>
     <!--javascript-->
-    <script src="js/JavaScript.js"></script>
+    <script src="/js/site.js"></script>
 
 </body>
 </html>
