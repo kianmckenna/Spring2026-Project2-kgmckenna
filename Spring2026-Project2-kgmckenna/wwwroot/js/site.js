@@ -12,7 +12,7 @@ $(function () {
 
         const ampm = hh >= 12 ? "PM" : "AM";
         hh = hh % 12;
-        hh = hh ? hh : 12; // converts 0 → 12
+        hh = hh ? hh : 12; 
 
         const formatted = `${hh}:${mm} ${ampm}`;
 
@@ -233,7 +233,6 @@ $(function () {
     }
 
     function escapeAttr(str) {
-        // same as escapeHtml, but keep it separate for clarity
         return escapeHtml(str);
     }
 });
